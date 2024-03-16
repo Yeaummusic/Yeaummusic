@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Centering</title>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  img {
+    max-width: 35%;
+    width: 100%;
+  }
+  @media (max-width: 680px) {
+    img {
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="./KakaoTalk_20240315_181811638.jpg" alt="Image">
+</div>
+</body>
+</html>
